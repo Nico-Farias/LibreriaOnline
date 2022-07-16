@@ -1,0 +1,26 @@
+[
+    {
+        "ciudad": "Rosario",
+        "direccion": "9 de julio 1244",
+        "horario": "9 a 17",
+        "telefono": "341-461854"
+    },
+    {
+        "ciudad": "Bigand",
+        "direccion": "9 de julio 144",
+        "horario": "9 a 17",
+        "telefono": "3464-461113"
+    },
+    {
+        "ciudad": "Santa fe",
+        "direccion": "sarmiento 3856",
+        "horario": "9 a 17",
+        "telefono": "343-461723"
+    },
+    {
+        "ciudad": "casilda",
+        "direccion": "Buenos aires 1255",
+        "horario": "9 a 17",
+        "telefono": "3464-460665"
+    }
+]

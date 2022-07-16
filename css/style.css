@@ -1,0 +1,400 @@
+body {
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+
+/*HEADER*/
+
+.header {
+    margin: 2rem 2rem;
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+    column-gap: 5rem;
+}
+
+.header .logo img {
+    width: 200px;
+    height: 200px;
+}
+
+#navegacion-principal {
+    display: inline-block;
+    list-style: none;
+}
+
+#navegacionPrincipal .btnCat {
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    color: rgb(151, 105, 63);
+}
+
+
+/* MAIN */
+
+main .categorias ul button {
+    margin-top: 2rem;
+    font-size: 2rem;
+    border-radius: 1.5rem;
+    padding: .5rem;
+    margin-right: 1rem;
+    background-color: #f7d897;
+}
+
+main .btnCat {
+    font-family: 'Fascinate', cursive;
+    text-align: center;
+    padding: 0 1rem;
+    margin: 1rem;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: rgb(226, 195, 128);
+    color: white;
+    border-radius: 5rem;
+    border: 2px solid white;
+
+}
+
+.btnCat:hover {
+    background-color: #f09064;
+    border: 1px solid gray;
+}
+
+main h2 {
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(100, 76, 54);
+    padding: 2rem;
+}
+
+main .cards {
+    display: grid;
+}
+
+main .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 1rem;
+    margin: 1rem;
+}
+
+main .card-libros {
+    border: 2px solid rgb(105, 74, 17);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+main .card-libros .precio {
+    color: rgb(19, 185, 19);
+    font-weight: 700;
+}
+
+main .card-libros h2 {
+    color: rgb(151, 105, 63);
+    font-weight: 700;
+}
+
+.card-libros h2 {
+    height: 10rem;
+}
+
+.card-libros {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+    text-align: center;
+    background-color: rgb(228, 248, 228);
+    vertical-align: auto;
+}
+
+.card-libros p .span-precio {
+    color: black;
+    font-weight: bold;
+}
+
+.card-libros p {
+    font-family: 'Inconsolata', monospace;
+    margin-top: 2rem;
+    color: blue;
+}
+
+.card-libros img {
+    max-width: 50%;
+    max-height: 300px;
+    padding-top: 1rem;
+}
+
+
+
+.card-libros .stock {
+    color: rgb(22, 26, 22);
+    font-weight: bold;
+
+}
+
+.card-libros .info-libro label {
+    font-weight: 900;
+}
+
+.cant-lib {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    text-align: center;
+}
+
+.card-libros .info-libro .boton-carrito {
+    margin-top: 2rem;
+    background-color: #fddb92;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+.card-libros .info-libro .boton-carrito:hover {
+    background-color: #746b56;
+    color: wheat;
+}
+
+.card-libros .mas-info {
+    margin-top: 2rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.mas-info:hover {
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+footer .contenedor-footer {
+
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-footer .footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 2rem;
+    margin: 2rem;
+}
+
+.footer .medios-de-pago {
+    margin-right: 5rem;
+}
+
+.footer .maps {
+    margin-top: 2rem;
+}
+
+footer .copy {
+    margin-top: 2rem;
+    background-color: #fde7b6;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+/* CARRITO **/
+
+.contenedor-carrito {
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #d6c8a6;
+    padding: 2rem;
+    border-radius: 5rem;
+}
+
+#carrito {
+    text-align: center;
+
+}
+
+#carrito h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.carrito-principal {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+
+}
+
+.carrito-principal .izquierda-carrito {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding-bottom: 2rem;
+
+}
+
+.carrito-principal .izquierda-carrito h2 {
+    color: green;
+    font-size: 1.2rem;
+}
+
+.carrito-principal .izquierda-carrito p {
+    font-weight: bold;
+}
+
+.carrito-principal .izquierda-carrito img {
+    border-radius: 50rem;
+}
+
+.carrito-principal .derecha-carrito {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.carrito-principal .derecha-carrito p {
+    padding-top: 3rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.carrito-principal .derecha-carrito button {
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+
+}
+
+
+
+.derecha-carrito .btnFinalizar:hover {
+    color: #fddb92;
+    background-color: #746b56;
+}
+
+
+
+.btn-eliminar {
+    background-color: rgb(209, 21, 21);
+    border-radius: 2rem;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    font-weight: bold;
+
+}
+
+.contenedor-carrito .totalCompra {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.contenedor-carrito .totalCompra .btnFinalizar {
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: rgb(59, 168, 59);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 2rem;
+
+}
+
+.productos-carrito {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.productos-carrito input {
+    width: 40px;
+    height: 40px;
+    margin-top: 3rem;
+}
+
+.botonesCarrito {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+
+    text-decoration: none;
+    background-color: none;
+    border: none;
+    font-size: 2.3rem;
+}
+
+.botonesCarrito .btnA {
+    color: rgb(59, 168, 59);
+    background-color: #d6c8a6;
+    border: none;
+    font-weight: bold;
+
+}
+
+.botonesCarrito .btnQ {
+
+    color: red;
+    background-color: #d6c8a6;
+    border: none;
+    font-weight: bold;
+}
+
+/*SUCURSALES*/
+
+#sucursales {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.sucursales p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.sucursales .ciudad {
+    color: green;
+    font-size: 2rem;
+}
